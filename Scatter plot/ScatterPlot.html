@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel = "stylesheet" href = "ScatterPlot.css">
+</head>
+
+<body>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  
+  <div class="container">
+    <div class="dropdowns">
+      <div class="dropdown-X-axis">
+        <select id="dropdown-X">
+          <option value="sepal length">Sepal Length</option>
+          <option value="sepal width">Sepal Width</option>
+          <option value="petal length">Petal Length</option>
+          <option value="petal width">Petal Width</option>
+        </select>
+      </div>
+
+      <div class="dropdown-Y-axis">
+        <select id="dropdown-Y">
+          <option value="sepal length">Sepal Length</option>
+          <option value="sepal width">Sepal Width</option>
+          <option value="petal length">Petal Length</option>
+          <option value="petal width">Petal Width</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item">
+        <svg width="120" height="20">
+          <g transform="translate(5, 10)">
+            <circle cx="5" cy="0" r="5" fill="#8C2020"></circle>
+            <text x="15" y="0" dy="0.35em">Iris-setosa</text>
+          </g>
+        </svg>
+      </div>
+      <div class="legend-item">
+        <svg width="120" height="20">
+          <g transform="translate(5, 10)">
+            <circle cx="5" cy="0" r="5" fill="#80BFB4"></circle>
+            <text x="15" y="0" dy="0.35em">Iris-versicolor</text>
+          </g>
+        </svg>
+      </div>
+      <div class="legend-item">
+        <svg width="120" height="20">
+          <g transform="translate(5, 10)">
+            <circle cx="5" cy="0" r="5" fill="#1B618C"></circle>
+            <text x="15" y="0" dy="0.35em">Iris-virginica</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    
+    <div class="scatter-plot-container">
+      <div class="scatter-plot"></div>
+    </div>
+  </div>
+  <script src="ScatterPlot.js"></script>
+</body>
+</html>

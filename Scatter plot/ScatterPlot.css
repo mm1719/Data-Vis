@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.scatter-plot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% of the viewport height */
+}
+
+.dropdowns{
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+
+.dropdown-X-axis{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.dropdown-Y-axis{
+  position: absolute;
+  top: 50%;
+  left: 200px;
+  transform: translateY(-20%);
+  text-align: center;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+.legend{
+  position: absolute;
+  top: 70%;
+  left: 200px;
+  transform: translateY(-20%);
+  text-align: center;
+}
