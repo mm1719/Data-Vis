@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel = "stylesheet" href = "StackedBar.css">
+    <title>Stacked Bar Chart</title>
+</head>
+<body>
+    <h2 id="title">Times World University Ranking 2024 (rank in overall)</h2>
+    <div id="sort-buttons">
+        <button id="default-sort" style="background-color: #ffffff; font-size: 12px;">Default(Rank)</button>
+        <button id="teaching-sort" style="background-color: #1f77b4; font-size: 12px;">Teaching</button>
+        <button id="research-sort" style="background-color: #ff7f0e; font-size: 12px;">Research</button>
+        <button id="citation-sort" style="background-color: #2ca02c; font-size: 12px;">Citation</button>
+        <button id="industry-sort" style="background-color: #d62728; font-size: 12px;">Industry Income</button>
+        <button id="international-sort" style="background-color: #9467bd; font-size: 12px;">International Outlook</button>
+        <button id="reverse-sort" style="background-color: #000000; color: #ffffff; font-size: 10px;">reverse</button>
+    </div>
+    <div id="stacked_bar_chart"></div>
+    <div id="tooltip"></div>
+    <script src="StackedBar.js"></script>
+</body>
+</html>

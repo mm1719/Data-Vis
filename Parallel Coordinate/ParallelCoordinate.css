@@ -1,0 +1,7 @@
+.legend {
+  display: flex;
+}
+
+.legend-item {
+  margin-right: 20px; /* Adjust the margin as needed for spacing */
+}

@@ -1,0 +1,29 @@
+#title {
+    margin-left: 10px;
+}
+
+#Buttons {
+    margin-left: 10px;
+}
+
+/*.gradient-box {
+    margin-left: 20px;
+    width: 38%;
+    height: 20px;
+    background: linear-gradient(to right, #8C2020, #D0D0D0, #1B618C);
+    border-radius: 5px;
+}*/
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+  
+.color-description {
+    display: horizontal;
+    margin-left: 20px;
+    margin-right: 58px;
+    font-size: 14px;
+    text-align: center; /* Should match the height of the gradient-box */
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallel Coordinate Plot</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <svg id="parallel-plot">
+        <g transform="translate(400, 545)">
+            <circle cx="5" cy="0" r="5" fill="#8C2020"></circle>
+            <text x="15" y="0" dy="0.35em">Iris-setosa</text>
+        </g>
+        <g transform="translate(500, 545)">
+            <circle cx="5" cy="0" r="5" fill="#80BFB4"></circle>
+            <text x="15" y="0" dy="0.35em">Iris-versicolor</text>
+        </g>
+        <g transform="translate(630, 545)">
+            <circle cx="5" cy="0" r="5" fill="#1B618C"></circle>
+            <text x="15" y="0" dy="0.35em">Iris-virginica</text>
+        </g>
+    </svg>
+    <script src="ParallelCoordinate.js"></script>
+</body>
+</html>

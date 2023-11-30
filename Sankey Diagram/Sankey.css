@@ -1,0 +1,22 @@
+#title {
+    margin-left: 250px;
+    margin-bottom: 0.5em;
+}
+#tooltip {
+    position: absolute; /* Add this line */
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc; /* Fix the typo */
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    z-index: 9999;
+}
+
+#resetButton {
+    margin-left: 203px;
+}
